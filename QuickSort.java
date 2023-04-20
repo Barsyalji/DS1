@@ -12,7 +12,7 @@ public class QuickSort {
 	}
 	public static int Sort(int arr [],int low ,int high)
 	{
-		int piv = high;
+		int piv = arr[high];
 		int i = low-1;
 		for(int j = low; j<high;j++)
 		{
